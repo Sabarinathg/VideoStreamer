@@ -3,10 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
-/* For Webkit browsers (e.g., Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 12px;
 }
@@ -20,8 +18,6 @@
   background: #222; /* Dark color for the track */
 }
 
-/* For Firefox */
-/* Set the track color separately, as Firefox does not support scrollbar-color property */
 body {
   scrollbar-color: #333 #222;
 }
